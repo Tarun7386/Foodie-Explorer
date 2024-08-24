@@ -1,0 +1,54 @@
+.place-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0.6, 0.6, 0.8), 
+                0 1px 3px rgba(0, 0.6, 0.5, 0.8); 
+    padding: 20px;
+    max-width: 400px;
+    margin: 90px auto;
+    font-family: Arial, sans-serif;
+}
+
+.inner-card1, .inner-card2, .inner-card3, .inner-card4 {
+    margin-bottom: 15px;
+}
+
+.inner-card1 label, 
+.inner-card2 label, 
+.inner-card3 label, 
+.inner-card4 label {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.inner-card1 input, 
+.inner-card2 input, 
+.inner-card3 input, 
+.inner-card4 input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}

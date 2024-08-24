@@ -1,0 +1,67 @@
+/* styles/AdminLogin.css */
+
+.asignInContainer {
+  height: 100vh;
+  width: 100%;
+  background-image: url('C:/Users/Tarun/OneDrive/Desktop/React-Projects/Foodie-Explorer/src/assets/admin.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  text-align: center;
+}
+
+.asignInContainer h2 {
+  margin-bottom: 50px;
+  position: absolute;
+  margin-top: 230px;
+  margin-left: 1000px;
+  font-size: 1.5rem;
+  color: #fff; /* White text for better contrast */
+}
+
+.asignInContainer form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 900px;
+  margin-top: 280px;
+  margin-right: 50px;
+  position: absolute;
+  background-image: url("C:\Users\Tarun\OneDrive\Desktop\React-Projects\Foodie-Explorer\src\assets\LOGIN_BACK.png");
+  background-position: center;
+  border: 3px solid #00b32a; 
+  border-radius: 25px;
+  padding: 50px;
+  height: 220px;
+  /* opacity: 0.5; */
+  box-shadow: 5px 5px 30px  rgba(221, 221, 13, 0.8);
+}
+
+.asignInContainer input {
+  margin-bottom: 1rem;
+  width: 200px;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+.asignInContainer input:focus {
+  border-color: #b5b8bc;
+  outline: none;
+}
+
+.f button {
+  margin-bottom: 1rem;
+  padding: 15px;
+  border-radius: 25px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #0056b3; /* Blue background */
+  
+  cursor: pointer;
+}
+
+.asignInContainer button:hover {
+  background-color: #004494; /* Darker blue on hover */
+}
+
+.asignInContainer button:focus {
+  outline: none;
+}

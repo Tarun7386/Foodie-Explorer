@@ -1,0 +1,38 @@
+.send_msg {
+    text-align: center;
+    padding: 20px;
+    /* border: 2px solid #007bff; */
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0.6, 0.5, 0.8, 0.8);
+    margin: 20px auto;
+    max-width: 400px;
+    /* border: 5px solid; */
+    margin-top:200px;
+}
+
+.send_msg .logo-msg {
+    display: block;
+    margin: 0 auto 20px; 
+    width: 100px; 
+    height: 100px; 
+}
+
+
+
+.send_msg button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.send_msg button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}

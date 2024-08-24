@@ -1,0 +1,75 @@
+/* .main_search_bar{
+    border: 5px solid purple;
+} */
+.search_bar_in input[type="text"] {
+    padding: 8px; 
+    border-radius: 50px; 
+    position:absolute; 
+    width: 300px;
+    /* border: 5px solid brown;  */
+    margin-left: 450px;
+    
+}
+.title{
+    margin-left: 450px;
+}
+.search_bar_in button {
+    top:50px;
+    padding: 8px 16px; 
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    border-radius: 25px; 
+    cursor: pointer; 
+   
+    margin-left: 760px;
+    /* border: 5px solid rgb(201, 214, 22); */
+}
+
+.search_bar_in button:hover {
+    background-color: #0056b3; 
+}
+
+#searchResults{
+    /* border: 5px solid; */
+    margin-top: 20px;
+}
+.cusine-grid{
+    display: flex;
+    justify-content: flex-start;
+    /* border: 5px solid red; */
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.search-card{
+    padding: 10px;
+    box-sizing: border-box;
+    /* border: 5px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    background-color: white; /* Ensures a consistent card background */
+    aspect-ratio: 1/1; /* Ensures the card is square */
+} 
+  
+.search-img{
+    width:60%;
+    height: 250px;
+    aspect-ratio: 1/1;
+    object-fit:fill;
+     margin-bottom: 0px;
+     margin-left: 15px; 
+    /* margin-top: 12px;   */
+    border: 2px solid rgb(0, 0, 0);
+}
+.result-details{
+    /* align-items: center; */
+    /* border: 1px solid orange; */
+    /* margin-bottom: 10px; */
+    /* height: fit-content; */
+    overflow-y: hidden;
+    padding: 11px 13px 25px;
+   
+} 

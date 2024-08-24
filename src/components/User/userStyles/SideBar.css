@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
+
+
+.wrapper .sidebar{
+    background: rgb(5, 68, 104);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 238px;
+    height: 850px;
+    padding: 52px 0;
+    transition: all 0.5s ease;
+}
+
+.wrapper .sidebar .profile{
+    /* border: 3px solid rgb(255, 0, 238); */
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.wrapper .sidebar .profile img{
+    display: block;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.wrapper .sidebar .profile h1 {
+    color: #ffffff;
+    margin: 10px 0px 3px 5px;
+    /* border: 3px solid ; */
+}
+
+.wrapper .sidebar .profile p{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+.ultag{
+    padding-left: 0px;
+    
+}
+.item{
+    position: absolute;
+
+}
+.wrapper .sidebar ul li a{
+    display: block;
+    padding: 12px 12px 15px 12px ;
+    border-bottom: 1px solid #10558d;
+    color: rgb(241, 237, 237);
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 0px;
+     /* border: 5px solid rgb(32, 162, 3); */
+    position: relative;
+    
+}
+.wrapper .sidebar ul li a .icon{
+    color: #dee4ec;
+    width: 30px;
+    display: inline-block;
+    /* border: 2px solid rgb(235, 1, 9);  */
+}
+
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a.active{
+    color: #0c7db1;
+    background:white;
+    /* border-right: 2px solid rgb(26, 104, 5); */
+}
+
+.wrapper .sidebar ul li a:hover .icon,
+.wrapper .sidebar ul li a.active .icon{
+    color: #0c7db1;
+}
+
+.wrapper .sidebar ul li a:hover:before,
+.wrapper .sidebar ul li a.active:before{
+    display: block;
+    
+}
+
+
+
+
+
+

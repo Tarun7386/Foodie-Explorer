@@ -1,0 +1,62 @@
+.deactivate_div {
+    background-color: #f9f9f9;
+   
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0.4, 0.6, 0.4);
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    
+    font-family: Arial, sans-serif;
+    /* border: 2px solid green; */
+}
+
+.d_ul {
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid gold; */
+}
+.d_user{
+    font-weight: bold;
+    font-size: 28px;
+    
+}
+.d_ul ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    /* border: 2px solid rgb(201, 30, 192); */
+    
+}
+
+.d_ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 10px;
+   
+    /* border: 3px solid red; Thicker border */
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0.6, 0.6, 0.8), 
+                0 1px 3px rgba(0, 0.6, 0.5, 0.8); 
+    margin-bottom: 10px; 
+    background-color: #fff; 
+}
+
+
+.d_ul button {
+    background-color: #dc3545; 
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-right: 5px;
+}
+
+.d_ul button:hover {
+    background-color: #c82333; 
+}

@@ -1,0 +1,51 @@
+/* General container styles */
+.collect_reg{
+    font-family: Arial, sans-serif; /* Sets a clean, readable font */
+    padding: 20px;
+    max-width: 800px; /* Limits the width of the container */
+    margin: auto; /* Centers the container */
+}
+
+/* Header styling */
+.collect_reg h2 {
+    font-size: 24px;
+    color: #333; /* Darker text color for better readability */
+    border-bottom: 2px solid #007BFF; /* Adds a colored line under the header */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Error message styling */
+.collect_reg.error {
+    color: #FF0000; /* Red color for errors */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* List styling */
+.collect_reg ul {
+    list-style-type: none; /* Removes default list styling */
+    padding: 0;
+}
+
+.collect_reg li {
+    background-color: #f9f9f9; /* Light background for each list item */
+    border: 1px solid #ddd; /* Light border for each list item */
+    border-radius: 5px; /* Rounded corners for each list item */
+    padding: 15px;
+    margin-bottom: 10px; /* Space between list items */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for a subtle 3D effect */
+}
+
+/* Styling for strong elements within list items */
+.collect_reg li strong {
+    color: #333; /* Darker color for labels */
+    display: inline-block;
+    width: 120px; /* Fixed width for labels */
+    font-weight: bold;
+}
+
+/* Additional styling for the content */
+.collect_reg li br {
+    margin: 5px 0; /* Adds space between lines of text */
+}
