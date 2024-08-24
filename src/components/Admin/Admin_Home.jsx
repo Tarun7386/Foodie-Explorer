@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import "./sheetcss1/AdminHome.css";
 const Admin_Home = () => {
   const [cusineData, setCusineData] = useState([]);
-  const username=localStorage.getItem("username");
+  const username = localStorage.getItem("username");
   useEffect(() => {
     const fetchCusineData = async () => {
       try {
@@ -26,18 +26,20 @@ const Admin_Home = () => {
   return (
     <div className="div1_admin">
       <div className="sidebar_admin">
-        <SidebarNav username={username}/>
+        <SidebarNav username={username} />
       </div>
       <div className="food-cards">
         <span>
           <h1>Cusine-Gallery </h1>
         </span>
         <img className="admin_logo" src="logo-img.png" />
-        <div id="cusine_gallery"> {cusineData.length > 0 ? (
+        <div id="cusine_gallery">
+          {" "}
+          {cusineData.length > 0 ? (
             <div className="cusine-gallery-grid">
               {cusineData.map((cusine, index) => (
                 <div className="cusine-card" key={index}>
-                  <img 
+                  <img
                     src={cusine.image}
                     alt={cusine.FoodItem}
                     className="cusine-img"
@@ -52,10 +54,8 @@ const Admin_Home = () => {
             </div>
           ) : (
             <p>No cusines found.</p>
-          )} 
+          )}
         </div>
-        
-
       </div>
     </div>
   );
