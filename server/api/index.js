@@ -8,12 +8,12 @@ require('dotenv').config();
 const app = express();
 
 
-const adminRouter=require('./routes/admin');
-const userRouter=require('./routes/user');
-const placeRouter=require('./routes/addplaces');
-const registrationsRouter=require('./routes/registrations');
-const deactivateRouter=require('./routes/deactivateUser')
-const sendMessageRouter=require('./routes/message')
+const adminRouter=require('../routes/admin');
+const userRouter=require('../routes/user');
+const placeRouter=require('../routes/addplaces');
+const registrationsRouter=require('../routes/registrations');
+const deactivateRouter=require('../routes/deactivateUser')
+const sendMessageRouter=require('../routes/message')
 // const bcrypt =require('bcrypt');
 // const jwt =require('jsonwebtoken');
 
