@@ -19,7 +19,7 @@ const sendMessageRouter=require('./routes/message')
 // mongodb://localhost:27021/
 // localhost:27017
 // mongodb://127.0.0.1:27020,127.0.0.1:27021,127.0.0.1:27022/cbitit1?replicaSet=m101';
-mongoose.connect('mongodb://localhost:27017/foodie_explorer', {
+mongoose.connect('mongodb+srv://nellikudurutarun1234:0vTmbnP9OhQSfdW4@cluster0.3lemn.mongodb.net/', {
   })
     .then(() => {
       console.log('MongoDB connected');
