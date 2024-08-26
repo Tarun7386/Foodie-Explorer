@@ -20,7 +20,7 @@ const sendMessageRouter=require('./routes/message')
 // mongodb://localhost:27021/
 // localhost:27017
 // mongodb://127.0.0.1:27020,127.0.0.1:27021,127.0.0.1:27022/cbitit1?replicaSet=m101';
-mongoose.connect('process.env.Base', {
+mongoose.connect('process.env.MONGODB_URI', {
   useNewUrlParser: true,
   useUnifiedTopology: true
   })
