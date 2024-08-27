@@ -9,7 +9,7 @@ const Admin_Home = () => {
     const fetchCusineData = async () => {
       try {
         const response = await fetch(
-          "http://localhost:3000/addplaces/admin_Home_cusines"
+          "https://foodie-explorer-deploy.vercel.app/addplaces/admin_Home_cusines"
         );
         if (!response.ok) {
           throw new Error("Failed to fetch cusine data");

@@ -28,7 +28,7 @@ const AddPlaces = () => {
     
     try {
       const response = await fetch(
-        "http://localhost:3000/addplaces/add_places",
+        "https://foodie-explorer-deploy.vercel.app/addplaces/add_places",
         {
           method: "POST",
           headers: {

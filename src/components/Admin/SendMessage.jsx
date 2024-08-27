@@ -7,7 +7,7 @@ const SendMessage = () => {
     if (message) {
       try {
         const response = await fetch(
-          "http://localhost:3000/message/send_message",
+          "https://foodie-explorer-deploy.vercel.app/message/send_message",
           {
             method: "POST",
             headers: {

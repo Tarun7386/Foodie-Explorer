@@ -8,7 +8,7 @@ const ReceiveMsg = () => {
     const fetchMessage = async () => {
       try {
         const response = await fetch(
-          "http://localhost:3000/message/latest_message"
+          "https://foodie-explorer-deploy.vercel.app/message/latest_message"
         );
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);

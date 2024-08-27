@@ -24,7 +24,7 @@ const DeactivateUser = () => {
   const deactivateUser = async (userId) => {
     try {
       const response = await fetch(
-        `http://localhost:3000/deactivateUser/deactivate_user/${userId}`,
+        `https://foodie-explorer-deploy.vercel.app/deactivateUser/deactivate_user/${userId}`,
         {
           method: "DELETE",
           headers: {
