@@ -14,13 +14,12 @@ const placeRouter=require('../routes/addplaces');
 const registrationsRouter=require('../routes/registrations');
 const deactivateRouter=require('../routes/deactivateUser')
 const sendMessageRouter=require('../routes/message')
-// const bcrypt =require('bcrypt');
-// const jwt =require('jsonwebtoken');
 
-// mongodb://localhost:27021/
-// localhost:27017
+
+
+// "mongodb://localhost:27017/foodie_explorer" 
 // mongodb://127.0.0.1:27020,127.0.0.1:27021,127.0.0.1:27022/cbitit1?replicaSet=m101';
-mongoose.connect(process.env.MONGODB_URI, {
+mongoose.connect(process.env.MONGODB_URI , {
   })
     .then(() => {
       console.log('MongoDB connected');
@@ -33,6 +32,9 @@ mongoose.connect(process.env.MONGODB_URI, {
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
+app.get('/', (req, res) => {
+  res.send('Welcome to the home page!');
+});
 
 app.use("/admin", adminRouter)
 app.use("/user", userRouter)
