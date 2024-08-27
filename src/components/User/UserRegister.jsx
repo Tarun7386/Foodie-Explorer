@@ -1,7 +1,4 @@
-
-
 import React, { useState } from "react";
-
 
 const UserRegister = () => {
   const [formData, setFormData] = useState({
@@ -75,7 +72,6 @@ const UserRegister = () => {
           });
           setErrors({});
         } else {
-          
           setErrors({ general: result.message });
         }
       } catch (error) {
@@ -87,7 +83,7 @@ const UserRegister = () => {
   return (
     <div className="container">
       <h2>Registration Form</h2>
-      <form id="registrationForm">
+      <form id="registrationForm" onSubmit={handleSubmit}>
         <label htmlFor="name" style={{ color: "yellow" }}>
           Name
         </label>
@@ -149,10 +145,10 @@ const UserRegister = () => {
           onChange={handleChange}
           required
         ></textarea>
-        <button onClick={handleSubmit} type="button">
-          submit
+
+        <button type="submit">
+          Submit
         </button>
-        {/* <input type="submit" value="Submit" /> */}
         {errors.general && <p className="error">{errors.general}</p>}
       </form>
     </div>
