@@ -6,7 +6,7 @@ const SearchBar = () => {
   const searchLocation = async () => {
     try {
       const response = await fetch(
-        `http://localhost:3000/addplaces/user_cusines?q=${encodeURIComponent(
+        `https://foodie-explorer-deploy.vercel.app/addplaces/user_cusines?q=${encodeURIComponent(
           query
         )}`
       );
