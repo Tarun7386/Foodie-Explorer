@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "routes": [
       { "src": "/favicon.ico", "dest": "/public/favicon.ico" },
@@ -5,3 +6,13 @@
     ]
   }
   
+=======
+ {
+   "rewrites": [
+     {
+    "source": "/(.*)",
+    "destination": "/api/index.js"
+     }
+   ]
+} 
+>>>>>>> 7616435a6793da4917f369f4de528f05d9303bc0
