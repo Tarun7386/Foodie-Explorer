@@ -1,10 +1,17 @@
 
-{
-    "routes": [
-      { "src": "/favicon.ico", "dest": "/public/favicon.ico" },
-      { "src": "/(.*)", "dest": "/api/index.js" }
-    ]
-  }
+// {
+//     "routes": [
+//       { "src": "/favicon.ico", "dest": "/public/favicon.ico" },
+//       { "src": "/(.*)", "dest": "/api/index.js" }
+//     ]
+//   }
   
 
 
+{
+  "routes": [
+    { "src": "/favicon.ico", "dest": "/public/favicon.ico" },
+    { "src": "/(.*)", "dest": "/api/index.js" },
+    { "src": "/(.*)", "dest": "/index.html" } 
+  ]
+}
