@@ -11,7 +11,7 @@ const SignUp = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:3000/user/sign_up", {
+      const response = await fetch("https://foodie-explorer-deploy.vercel.app/user/sign_up", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

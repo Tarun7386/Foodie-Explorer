@@ -11,7 +11,7 @@ const SignIn = () => {
   const handleSignIn = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:3000/user/sign_in", {
+      const response = await fetch("https://foodie-explorer-deploy.vercel.app/user/sign_in", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
