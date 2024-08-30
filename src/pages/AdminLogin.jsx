@@ -37,7 +37,6 @@ const AdminLogin = () => {
   
   return (
     <div className="asignInContainer">
-      
       <h2>Sign In</h2>
       <form  className="f" onSubmit={handleSignIn}>
         <input className="i1"
