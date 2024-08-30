@@ -1,0 +1,13 @@
+
+  
+
+
+
+{
+  "routes": [
+    { "src": "/favicon.ico", "dest": "/public/favicon.ico" },
+    { "src": "/api/(.*)", "dest": "/server/api/$1" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
+
