@@ -3,8 +3,7 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./styles/AdminLogin.css"
 
-const AdminLogin = () => {
-  
+const AdminLogin = () => {  
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
