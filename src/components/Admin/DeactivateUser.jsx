@@ -7,7 +7,7 @@ const DeactivateUser = () => {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const response = await fetch("http://localhost:3000/user/users_list"); // Ensure the URL is correct
+        const response = await fetch("https://foodie-explorer-deploy.vercel.app/user/users_list"); // Ensure the URL is correct
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -37,7 +37,7 @@ const DeactivateUser = () => {
       }
 
       alert("User deactivated successfully");
-      // Update the state to remove the deactivated user
+     
       setUsers((prevUsers) => prevUsers.filter((user) => user._id !== userId));
     } catch (error) {
       setError(error.message);
